@@ -37,3 +37,8 @@ gem "wdm", "~> 0.1.0", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "kramdown-parser-gfm"
 
 gem 'webrick'
+gem "just-the-docs"
+
+gem "jekyll-github-metadata", ">= 2.15"
+gem "jekyll-include-cache", group: :jekyll_plugins
+gem "html-proofer", "~> 4.0", :group => :development

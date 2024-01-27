@@ -1,6 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Home
+nav_order: 1
+description: "블로그 메인"
+permalink: /
 ---
+
+# Introduction
+{: .fs-9 }
+Hello World!
+{: .fs-6 .fw-300 }
