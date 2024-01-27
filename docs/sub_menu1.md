@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 서브메뉴2
-nav_order: 2
+nav_order: 3
 ---
 
-# Menu 2
+# 서브메뉴 예시
 {: .no_toc }
