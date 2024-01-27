@@ -23,8 +23,8 @@ repository: Choiwoosung34/Choiwoosung34.github.io # for github-metadata
 
 # Build settings
 markdown: kramdown
-# remote_theme: just-the-docs/just-the-docs
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+# theme: just-the-docs
 plugins:
   - jekyll-feed
 
