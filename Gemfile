@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll"
+gem "jekyll", "~> 4.3.2"  # installed by `gem jekyll`
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
@@ -37,7 +37,8 @@ gem "wdm", "~> 0.1.0", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "kramdown-parser-gfm"
 
 gem 'webrick'
-gem "just-the-docs"
+
+gem "just-the-docs", "0.5.3"  # pinned to the current release 2023-6-17
 
 gem "jekyll-github-metadata", ">= 2.15"
 gem "jekyll-include-cache", group: :jekyll_plugins
