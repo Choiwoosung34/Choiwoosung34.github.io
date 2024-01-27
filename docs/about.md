@@ -10,7 +10,7 @@ permalink: /about
 Hi, I'm a passionate developer with a knack for problem-solving and a love for creating innovative software solutions
 
 - 🔭 I’m currently working on Cafe24 Corp.  
-- 🌱 I’m currently learning Python, Algorithm, LLM  
+- 🌱 I’m currently learning Python, Algorithm, LLM.
 - [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=myhouse34)](https://solved.ac/myhouse34/)
 
 ### 🧑🏻‍🔧 Tech Stack 🧑🏻‍🔧
