@@ -1,9 +1,9 @@
 ---
 layout: default
-title: CS
-nav_order: 4
+title: Study
 has_children: true
-permalink: /docs/CS/cs
+parent: 공부
+permalink: /docs/study/cs
 ---
 
 # CS

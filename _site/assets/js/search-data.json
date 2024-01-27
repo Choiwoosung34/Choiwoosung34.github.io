@@ -9,99 +9,134 @@
     "doc": "알고리즘",
     "title": "Sub Menu 3",
     "content": " ",
-    "url": "/docs/Algorithm/algorithm#sub-menu-3",
+    "url": "/docs/algorithm#sub-menu-3",
     
-    "relUrl": "/docs/Algorithm/algorithm#sub-menu-3"
+    "relUrl": "/docs/algorithm#sub-menu-3"
   },"2": {
     "doc": "알고리즘",
     "title": "알고리즘",
     "content": " ",
-    "url": "/docs/Algorithm/algorithm",
+    "url": "/docs/algorithm",
     
-    "relUrl": "/docs/Algorithm/algorithm"
+    "relUrl": "/docs/algorithm"
   },"3": {
     "doc": "알고리즘 문제 풀이",
     "title": "알고리즘",
     "content": " ",
-    "url": "/docs/Algorithm/child/#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98",
+    "url": "/docs/algorithm/child#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98",
     
-    "relUrl": "/docs/Algorithm/child/#알고리즘"
+    "relUrl": "/docs/algorithm/child#알고리즘"
   },"4": {
     "doc": "알고리즘 문제 풀이",
     "title": "알고리즘 문제 풀이",
     "content": " ",
-    "url": "/docs/Algorithm/child/",
+    "url": "/docs/algorithm/child",
     
-    "relUrl": "/docs/Algorithm/child/"
+    "relUrl": "/docs/algorithm/child"
   },"5": {
     "doc": "자식메뉴1",
     "title": "Menu 3",
     "content": " ",
-    "url": "/docs/%EC%97%90%EB%9F%AC%EC%A0%80%EC%9E%A5%EC%86%8C/child/#menu-3",
+    "url": "/docs/error_archive/child#menu-3",
     
-    "relUrl": "/docs/%EC%97%90%EB%9F%AC%EC%A0%80%EC%9E%A5%EC%86%8C/child/#menu-3"
+    "relUrl": "/docs/error_archive/child#menu-3"
   },"6": {
     "doc": "자식메뉴1",
     "title": "자식메뉴1",
     "content": " ",
-    "url": "/docs/%EC%97%90%EB%9F%AC%EC%A0%80%EC%9E%A5%EC%86%8C/child/",
+    "url": "/docs/error_archive/child",
     
-    "relUrl": "/docs/%EC%97%90%EB%9F%AC%EC%A0%80%EC%9E%A5%EC%86%8C/child/"
+    "relUrl": "/docs/error_archive/child"
   },"7": {
     "doc": "자식메뉴1",
     "title": "Menu 3",
     "content": " ",
-    "url": "/docs/Project/child/#menu-3",
+    "url": "/docs/project/child#menu-3",
     
-    "relUrl": "/docs/Project/child/#menu-3"
+    "relUrl": "/docs/project/child#menu-3"
   },"8": {
     "doc": "자식메뉴1",
     "title": "자식메뉴1",
     "content": " ",
-    "url": "/docs/Project/child/",
+    "url": "/docs/project/child",
     
-    "relUrl": "/docs/Project/child/"
+    "relUrl": "/docs/project/child"
   },"9": {
-    "doc": "자식메뉴1",
-    "title": "Menu 3",
+    "doc": "오픈소스1",
+    "title": "오픈소스",
     "content": " ",
-    "url": "/docs/CS/child/#menu-3",
+    "url": "/docs/open_sourece/child#%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4",
     
-    "relUrl": "/docs/CS/child/#menu-3"
+    "relUrl": "/docs/open_sourece/child#오픈소스"
   },"10": {
-    "doc": "자식메뉴1",
-    "title": "자식메뉴1",
+    "doc": "오픈소스1",
+    "title": "오픈소스1",
     "content": " ",
-    "url": "/docs/CS/child/",
+    "url": "/docs/open_sourece/child",
     
-    "relUrl": "/docs/CS/child/"
+    "relUrl": "/docs/open_sourece/child"
   },"11": {
-    "doc": "CS",
+    "doc": "Study",
     "title": "CS",
     "content": " ",
-    "url": "/docs/CS/cs",
+    "url": "/docs/study/cs#cs",
     
-    "relUrl": "/docs/CS/cs"
+    "relUrl": "/docs/study/cs#cs"
   },"12": {
-    "doc": "Introduction",
-    "title": "Introduction",
-    "content": "해당 블로그는 공부하는거나 문제 해결했던 부분에 대해 경험이나 배운점을 아카이브 해놓는 형식으로 정리하는 블로그입니다. ",
-    "url": "/",
-    
-    "relUrl": "/"
-  },"13": {
-    "doc": "프로젝트",
-    "title": "프로젝트",
+    "doc": "Study",
+    "title": "Study",
     "content": " ",
-    "url": "/docs/Project/project",
+    "url": "/docs/study/cs",
     
-    "relUrl": "/docs/Project/project"
-  },"14": {
+    "relUrl": "/docs/study/cs"
+  },"13": {
     "doc": "에러저장소",
     "title": "에러저장소",
     "content": " ",
     "url": "/docs/error_archive",
     
     "relUrl": "/docs/error_archive"
+  },"14": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "해당 블로그는 공부하는거나 문제 해결했던 부분에 대해 경험이나 배운점을 아카이브 해놓는 형식으로 정리하는 블로그입니다. ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"15": {
+    "doc": "오픈소스",
+    "title": "오픈소스",
+    "content": " ",
+    "url": "/docs/open_sourece",
+    
+    "relUrl": "/docs/open_sourece"
+  },"16": {
+    "doc": "프로젝트",
+    "title": "프로젝트",
+    "content": " ",
+    "url": "/docs/project",
+    
+    "relUrl": "/docs/project"
+  },"17": {
+    "doc": "Python",
+    "title": "Python",
+    "content": " ",
+    "url": "/docs/study/python",
+    
+    "relUrl": "/docs/study/python"
+  },"18": {
+    "doc": "공부",
+    "title": "Study",
+    "content": "공부하는 내용을 정리하는 메뉴입니다. ",
+    "url": "/docs/study#study",
+    
+    "relUrl": "/docs/study#study"
+  },"19": {
+    "doc": "공부",
+    "title": "공부",
+    "content": " ",
+    "url": "/docs/study",
+    
+    "relUrl": "/docs/study"
   }
 }
