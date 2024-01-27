@@ -20,41 +20,34 @@
     
     "relUrl": "/docs/sub_menu2/child/"
   },"3": {
-    "doc": "Home",
+    "doc": "Introduction",
     "title": "Introduction",
-    "content": "Hello World! . ",
-    "url": "/#introduction",
-    
-    "relUrl": "/#introduction"
-  },"4": {
-    "doc": "Home",
-    "title": "Home",
-    "content": " ",
+    "content": "해당 블로그는 공부하는거나 문제 해결했던 부분에 대해 경험이나 배운점을 아카이브 해놓는 형식으로 정리하는 블로그입니다. ",
     "url": "/",
     
     "relUrl": "/"
-  },"5": {
+  },"4": {
     "doc": "서브메뉴3",
     "title": "Sub Menu 3",
     "content": " ",
     "url": "/docs/sub_menu2/menu3#sub-menu-3",
     
     "relUrl": "/docs/sub_menu2/menu3#sub-menu-3"
-  },"6": {
+  },"5": {
     "doc": "서브메뉴3",
     "title": "서브메뉴3",
     "content": " ",
     "url": "/docs/sub_menu2/menu3",
     
     "relUrl": "/docs/sub_menu2/menu3"
-  },"7": {
+  },"6": {
     "doc": "서브메뉴2",
     "title": "서브메뉴 예시",
     "content": " ",
     "url": "/docs/sub_menu1/#%EC%84%9C%EB%B8%8C%EB%A9%94%EB%89%B4-%EC%98%88%EC%8B%9C",
     
     "relUrl": "/docs/sub_menu1/#서브메뉴-예시"
-  },"8": {
+  },"7": {
     "doc": "서브메뉴2",
     "title": "서브메뉴2",
     "content": " ",
