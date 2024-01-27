@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 자식메뉴1
-parent: 서브메뉴3
+parent: CS
 ---
 
 # Menu 3

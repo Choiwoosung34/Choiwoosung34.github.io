@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 서브메뉴3
+title: CS
 nav_order: 4
 has_children: true
-permalink: /docs/sub_menu2/menu3
+permalink: /docs/CS/cs
 ---
 
-# Sub Menu 3
+# CS
 {: .no_toc }
