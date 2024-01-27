@@ -38,7 +38,7 @@ gem "kramdown-parser-gfm"
 
 gem 'webrick'
 
-gem "just-the-docs", "0.5.3"  # pinned to the current release 2023-6-17
+gem "just-the-docs"
 
 gem "jekyll-github-metadata", ">= 2.15"
 gem "jekyll-include-cache", group: :jekyll_plugins
