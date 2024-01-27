@@ -30,5 +30,5 @@ Hi, I'm a passionate developer with a knack for problem-solving and a love for c
 - email : myhouse34@naver.com
 
 
-### 🚀 My Projects
+### 🚀 Projects
 - **Project1**: TODO
