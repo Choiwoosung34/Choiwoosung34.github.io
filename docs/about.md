@@ -24,5 +24,11 @@ Hi, I'm a passionate developer with a knack for problem-solving and a love for c
     - ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
 
+### 🙋‍♂️ Contact Info  
+- name: 최우성 (CHOI WOOSUNG)
+- mobile : 010-9268-3936
+- email : myhouse34@naver.com
+
+
 ### 🚀 My Projects
 - **Project1**: TODO
