@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("http://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/d2coding.css");
 .highlight,
 pre.highlight {
   background: #f9f9f9;
@@ -846,6 +847,10 @@ template {
   display: none;
 }
 
+:root {
+  color-scheme: dark;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -861,7 +866,7 @@ html {
 }
 
 body {
-  font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif;
+  font-family: D2Coding, "D2 coding", monospace;
   font-size: inherit;
   line-height: 1.4;
   color: #e6e1e8;
@@ -1704,8 +1709,8 @@ h6,
   text-align: right !important;
 }
 
-.label,
-.label-blue {
+.label:not(g),
+.label-blue:not(g) {
   display: inline-block;
   padding: 0.16em 0.56em;
   margin-right: 0.5rem;
@@ -1718,25 +1723,25 @@ h6,
   border-radius: 12px;
 }
 @media (min-width: 31.25rem) {
-  .label,
-  .label-blue {
+  .label:not(g),
+  .label-blue:not(g) {
     font-size: 0.75rem !important;
   }
 }
 
-.label-green {
+.label-green:not(g) {
   background-color: #009c7b;
 }
 
-.label-purple {
+.label-purple:not(g) {
   background-color: #5e41d0;
 }
 
-.label-red {
+.label-red:not(g) {
   background-color: #e94c4c;
 }
 
-.label-yellow {
+.label-yellow:not(g) {
   color: #44434d;
   background-color: #f7d12e;
 }

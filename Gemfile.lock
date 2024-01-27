@@ -123,11 +123,11 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer (~> 4.0)
-  jekyll (~> 4.3.2)
+  jekyll
   jekyll-feed (~> 0.6)
   jekyll-github-metadata (>= 2.15)
   jekyll-include-cache
-  just-the-docs (= 0.5.3)
+  just-the-docs
   kramdown-parser-gfm
   minima (~> 2.0)
   tzinfo (~> 1.2)
