@@ -17,12 +17,21 @@ title: Gosu of Python
 email: wschoi
 description: 개발 블로그
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "python-choigosu.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://python-choigosu.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Choiwoosung34
 repository: Choiwoosung34/Choiwoosung34.github.io # for github-metadata
 author:
   name: "CHOI WOOSUNG"
 locale: "ko-KR"
+
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-last-modified-at
 
 # Build settings
 markdown: kramdown
@@ -171,13 +180,6 @@ callouts:
 # Note: the main Just the Docs site does *not* use Google Analytics.
 # ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
 # ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-sitemap
-  - jekyll-feed
 
 kramdown:
   syntax_highlighter_opts:
