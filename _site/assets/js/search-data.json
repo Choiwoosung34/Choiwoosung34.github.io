@@ -97,62 +97,55 @@
     
     "relUrl": "/docs/open_sourece/child"
   },"14": {
-    "doc": "Study",
+    "doc": "CS",
     "title": "CS",
-    "content": " ",
-    "url": "/docs/study/cs#cs",
-    
-    "relUrl": "/docs/study/cs#cs"
-  },"15": {
-    "doc": "Study",
-    "title": "Study",
     "content": " ",
     "url": "/docs/study/cs",
     
     "relUrl": "/docs/study/cs"
-  },"16": {
+  },"15": {
     "doc": "에러저장소",
     "title": "에러저장소",
     "content": " ",
     "url": "/docs/error_archive",
     
     "relUrl": "/docs/error_archive"
-  },"17": {
+  },"16": {
     "doc": "Introduction",
     "title": "Introduction",
     "content": ". 해당 블로그는 공부하는거나 문제 해결했던 부분에 대해 경험이나 배운점을 아카이브 해놓는 형식으로 정리하는 블로그입니다. 여담으로 블로그 도메인부터 파이썬 최고수 닷컴인데 진짜 최고수는 아니고 성이 최씨이고 파이썬 좀 잘하고 싶어서 그렇게 지었습니다. 블로그 하면서 진짜 최고수가 되는게 목표입니다. 2024-01 시작 . ",
     "url": "/",
     
     "relUrl": "/"
-  },"18": {
+  },"17": {
     "doc": "오픈소스",
     "title": "오픈소스",
     "content": " ",
     "url": "/docs/open_sourece",
     
     "relUrl": "/docs/open_sourece"
-  },"19": {
+  },"18": {
     "doc": "프로젝트",
     "title": "프로젝트",
     "content": " ",
     "url": "/docs/project",
     
     "relUrl": "/docs/project"
-  },"20": {
+  },"19": {
     "doc": "Python",
     "title": "Python",
     "content": " ",
     "url": "/docs/study/python",
     
     "relUrl": "/docs/study/python"
-  },"21": {
+  },"20": {
     "doc": "공부",
     "title": "Study",
     "content": "공부하는 내용을 정리하는 메뉴입니다. ",
     "url": "/docs/study#study",
     
     "relUrl": "/docs/study#study"
-  },"22": {
+  },"21": {
     "doc": "공부",
     "title": "공부",
     "content": " ",
