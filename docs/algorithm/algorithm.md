@@ -6,5 +6,5 @@ has_children: true
 permalink: /docs/algorithm
 ---
 
-# Sub Menu 3
+# 알고리즘 문제 풀이
 {: .no_toc }

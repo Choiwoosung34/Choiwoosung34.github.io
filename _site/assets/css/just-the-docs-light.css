@@ -602,8 +602,8 @@ html {
 }
 
 body {
-  font-family: D2Coding, "D2 coding", monospace;
-  font-size: inherit;
+  font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji";
+  font-size: 0.9em;
   line-height: 1.4;
   color: #5c5962;
   background-color: #fff;
@@ -659,8 +659,8 @@ a:not([class]):hover {
 }
 
 code {
-  font-family: "SFMono-Regular", menlo, consolas, monospace;
-  font-size: 0.75em;
+  font-family: D2Coding, "D2 coding", monospace;
+  font-size: 0.8em;
   line-height: 1.4;
 }
 

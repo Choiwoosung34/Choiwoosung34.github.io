@@ -19,9 +19,8 @@ html {
 }
 
 body {
-  // font-family: $body-font-family;
-	font-family: D2Coding, 'D2 coding', monospace;
-  font-size: inherit;
+  font-family: $body-font-family;
+  font-size: 0.9em;
   line-height: $body-line-height;
   color: $body-text-color;
   background-color: $body-background-color;
@@ -78,8 +77,9 @@ a:not([class]) {
 }
 
 code {
-  font-family: $mono-font-family;
-  font-size: 0.75em;
+  // font-family: $mono-font-family;
+  font-family: D2Coding, 'D2 coding', monospace;
+  font-size: 0.8em;
   line-height: $body-line-height;
 }
 
