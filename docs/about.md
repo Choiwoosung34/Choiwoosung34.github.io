@@ -5,7 +5,7 @@ nav_order: 2
 description: "About Me"
 permalink: /about
 ---
-
+![my picture](/assets/images/about_me.jpg){: width="200" height="200"}  
 ### About Me 👋
 Hi, I'm a passionate developer with a knack for problem-solving and a love for creating innovative software solutions
 
