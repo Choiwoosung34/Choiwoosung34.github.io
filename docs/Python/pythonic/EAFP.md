@@ -451,7 +451,7 @@ with open("hello.txt", mode="a", encoding="utf-8") as hello:
         pass
 ```
 위와 같은 코드가 있다고 생각해보자.  
-위 코드를 실행하면 아래 결과가 나올것이다.  
+위 코드를 실행하면 아래와 같은 파일이 나올것이다.  
 
 ```bash
 안녕: 우성!
@@ -460,7 +460,7 @@ with open("hello.txt", mode="a", encoding="utf-8") as hello:
 안녕: 
 ```
 index 가 3 일 때  
-`hello.write("안녕\n")` 여기 구문은 정상적으로 실행되고,  
+`hello.write("안녕: ")` 여기 구문은 정상적으로 실행되고,  
 `hello.write(f"{names[index]}!\n")` 이 부분에서는 에러가 나서  
 파일에 불완전한 내용으로 남아있다.
 
