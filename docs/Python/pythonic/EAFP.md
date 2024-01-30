@@ -336,7 +336,7 @@ except ConnectionError:
 {: .fs-2 .text-grey-dk-000 }
 
 
-#### 5.5 코드 성능 향상
+#### 5.5 성능 향상
 {: .fs-3 .text-red-000 }
 성능은 개발할 때 가장 중요한 요소 중 하나이다.  
 
@@ -433,16 +433,123 @@ print(f"이 경우 LBYL 이 {lbyl_time / eafp_time:.3f}배 만큼 EAFP 보다 �
 많은 예외가 발생하는 경우 LBYL 이 성능이 더 잘나온다.
 {: .fs-2 .text-grey-dk-000 }
 
+
+## 6. EAFP 적용시 주의할 점
+{: .text-green-000 }
+#### 6.1 사이드 이펙트를 체크해야 된다.  
+{: .fs-3 .text-red-000 }
+
+```python
+names = ["우성", "오이", "아토"]
+
+with open("hello.txt", mode="a", encoding="utf-8") as hello:
+    try:
+        for index in range(4): # 0, 1, 2, 3
+            hello.write("안녕: ")
+            hello.write(f"{names[index]}!\n")
+    except IndexError:
+        pass
+```
+위와 같은 코드가 있다고 생각해보자.  
+위 코드를 실행하면 아래 결과가 나올것이다.  
+
+```bash
+안녕: 우성!
+안녕: 오이!
+안녕: 아토!
+안녕: 
+```
+index 가 3 일 때  
+`hello.write("안녕\n")` 여기 구문은 정상적으로 실행되고,  
+`hello.write(f"{names[index]}!\n")` 이 부분에서는 에러가 나서  
+파일에 불완전한 내용으로 남아있다.
+
+한번더 이 코드를 실행한다면?
+```bash
+안녕: 우성!
+안녕: 오이!
+안녕: 아토!
+안녕: 안녕: 우성!
+안녕: 오이!
+안녕: 아토!
+안녕: 
+```
+파일 내용(형식)이 깨져버린다.
+
+이를 방지하기 위해선 아래처럼 하면 된다.
+```python
+names = ["우성", "오이", "아토"]
+
+with open("hello.txt", mode="a", encoding="utf-8") as hello:
+    for index in range(4): # 0, 1, 2, 3
+        try:
+            name = names[index]
+        except IndexError:
+            pass
+        else:
+            hello.write("안녕: ")
+            hello.write(f"{name}!\n")
+```
+
+try 문에는 예외가 발생하는 `name = names[index]` 만 둔다.  
+else 문으로 except 가 없을 경우에만 실행시켜주면 된다.  
+이렇게 하면 파일 형식이 망가지지 않는 것을 볼 수 있다.
+
+```bash
+안녕: 우성!
+안녕: 오이!
+안녕: 아토!
+```
+
+#### 6.2 모든 예외를 짬처리(?) 하지 마라
+{: .fs-3 .text-red-000 }
+
+```python
+try:
+    do_something()
+except Exception:
+    pass
+```
+위와 같은 처리는 피하자.  
+`do_something` 함수에서는 다양한 유형의 예외가 발생할 수 있다.  
+알 수 없는 오류를 포함하여 모든 오류를 이렇게 조용히 넘겨서 실행하는것은  
+<span style="color: red;">나중에 다 업보로 돌아온다.</span>
+
+또한 이는 [Zen of Python](https://peps.python.org/pep-0020/){:target="_blank"}의 철학에 벗어난다.
+```bash
+Errors should never pass silently. 오류를 조용히 보내서는 안된다.
+Unless explicitly silenced. 알고도 침묵하지 않는 한.
+```
+대신 아래와 같이 각 예외를 적절하게 처리하자.  
+```python
+try:
+    do_something()
+except ValueError:
+    # ValueError 핸들링
+except IndexError:
+    # IndexError 핸들링
+except MyCustomError:
+    # MyCustomError 핸들링
+```
+또 이렇게 하면 디버깅이 더 쉬워진다.  
+do_something 에서 문제가 생기면 바로 실패되기 때문이다.  
+
+즉 조용히 알 수 없는 오류를 전달하지 않을 수 있다.
+
 ## 결론
 {: .text-yellow-200 }
 
 대부분의 경우에 값이 올바르게 오거나,  
 단순히 몇가지의 예외만 포함할 수 있거나,  
 전제조건 체크에 비용이 많이 들어간다면,  
-EAFP 스타일을 쓰면 된다.
 
-아래에 정리한 내용을 보고,  
-상황에 따라 어떤 스타일로 적용할지 고민해보면 될 것 같다.
+EAFP 스타일을 쓰면 된다.  
+
+올바르게 사용할 수 있다면
+{: .fs-2 .text-grey-dk-000 }
+
+아래에 종합해서 내용을 정리해놨는데,  
+아래 내용을 보고 상황에 따라 사용할 전략을 정해볼 수 있을 것이다.
 
 | LBYL 사용 | EAFP 사용 |
 |---------------------------------|-------------------------------------------------------|
