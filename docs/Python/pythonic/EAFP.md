@@ -443,7 +443,7 @@ print(f"이 경우 LBYL 이 {lbyl_time / eafp_time:.3f}배 만큼 EAFP 보다 �
 names = ["우성", "오이", "아토"]
 
 with open("hello.txt", mode="a", encoding="utf-8") as hello:
-    for index in range(4):
+    for index in range(4): # 0, 1, 2, 3
         try:
             hello.write("안녕: ")
             hello.write(f"{names[index]}!\n")
