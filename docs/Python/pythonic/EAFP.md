@@ -332,7 +332,7 @@ except ConnectionError:
 위 멀티쓰레드 환경 Race Condition 상황에서 나온 에러를  
 우리가 디버깅 해본다고 가정해보자.  
 ~~???: 제가 해보니깐 잘 되는데요??~~  
-라고 할 듯..
+벌써부터 어질어질하다.
 {: .fs-2 .text-grey-dk-000 }
 
 
@@ -367,7 +367,7 @@ def EAFP(text):
     return char_count_map
 ```
 
-아래와 같이 좀 긴 텍스트 가지고 해보자.  
+아래와 같은 텍스트로 실행시켜보자.
 ```python
 # https://www.python.org/about/gettingstarted/ 여기서 긁어옴 ㅋㅋ
 text = """
@@ -438,7 +438,7 @@ print(f"이 경우 LBYL 이 {lbyl_time / eafp_time:.3f}배 만큼 EAFP 보다 �
 
 대부분의 경우에 값이 올바르게 오거나,  
 단순히 몇가지의 예외만 포함할 수 있거나,  
-전제조건에 시간이 많이 걸린다면,  
+전제조건 체크에 비용이 많이 들어간다면,  
 EAFP 스타일을 쓰면 된다.
 
 아래에 정리한 내용을 보고,  
